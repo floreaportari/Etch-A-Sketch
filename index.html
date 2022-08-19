@@ -4,8 +4,40 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>E Sketch</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DynaPuff:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- CSS Links -->
     <link rel="stylesheet" href="styles.css" />
+
+    <!-- JS Scripts -->
     <script src="main.js" defer></script>
   </head>
-  <body></body>
+  <body>
+    <div class="main-container">
+      <h1>Sketch Pad</h1>
+      <div class="sketch-board-container">
+        <div class="board"></div>
+        <div class="btns">
+          <button id="small-sketch-btn" value="16" onclick="calcSize(this)">
+            16x16
+          </button>
+          <button id="large-sketch-btn" value="32" onclick="calcSize(this)">
+            32x32
+          </button>
+          <div>
+            <input type="color" name="color-picker" id="color-picker" />
+            <label for="color-picker">Color Picker</label>
+          </div>
+          <button>Reset</button>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>

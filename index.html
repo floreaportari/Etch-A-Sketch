@@ -23,6 +23,7 @@
     <div class="main-container">
       <h1>Sketch Pad</h1>
       <div class="sketch-board-container">
+        <h3>Choose size first</h3>
         <div class="board"></div>
         <div class="btns">
           <button id="small-sketch-btn" value="16" onclick="calcSize(this)">
@@ -31,11 +32,18 @@
           <button id="large-sketch-btn" value="32" onclick="calcSize(this)">
             32x32
           </button>
-          <div>
+          <button
+            id="extralarge-sketch-btn"
+            value="64"
+            onclick="calcSize(this)"
+          >
+            64x64
+          </button>
+          <div class="color-container">
             <input type="color" name="color-picker" id="color-picker" />
             <label for="color-picker">Color Picker</label>
           </div>
-          <button>Reset</button>
+          <button id="reset-btn">Reset</button>
         </div>
       </div>
     </div>

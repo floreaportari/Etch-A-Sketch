@@ -15,6 +15,7 @@ function calcSize(target) {
   for (let i = 0; i < `${cellsNum}`; i++) {
     const cellDiv = document.createElement("div");
     cellDiv.style.border = "1px solid black";
+    cellDiv.style.backgroundColor = "white";
     board.appendChild(cellDiv);
 
     cellDiv.addEventListener("mouseover", (e) => {

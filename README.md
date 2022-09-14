@@ -1,13 +1,15 @@
 # Etch-A-Sketch
 
-Etch-A-Sketch with Odin Project!
+### Etch-A-Sketch with Odin Project!
 
-Live site under https://floreaportari.github.io/Etch-A-Sketch/
+<br/>
 
-Tools used:
+> Live site under https://floreaportari.github.io/Etch-A-Sketch/
 
-HTML
+Tools used to build this game:
 
-CSS
+- **HTML**
 
-JS
+- **CSS**
+
+- **JS**
